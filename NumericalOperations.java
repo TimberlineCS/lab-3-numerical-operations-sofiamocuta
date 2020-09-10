@@ -40,10 +40,7 @@ public class NumericalOperations{
     int b = n/10%10;
     int c = n/100%10;
     int d = n/1000%10;
-    String aa = ""+a;
-    String bb = ""+b;
-    String cc = ""+c;
-    String dd = ""+d;
+    String aa = ""+a, bb = ""+b, cc = ""+c, dd = ""+d;
     System.out.println(aa+bb+cc+dd);
   }
 }
