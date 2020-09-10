@@ -36,11 +36,11 @@ public class NumericalOperations{
 
     //version 3
     int n = 1234;
-    int a = n%10;
-    int b = n/10%10;
-    int c = n/100%10;
+    int a = n%10*1000;
+    int b = n/10%10*100;
+    int c = n/100%10*10;
     int d = n/1000%10;
-    String aa = ""+a, bb = ""+b, cc = ""+c, dd = ""+d;
-    System.out.println(aa+bb+cc+dd);
+    int output = a + b + c + d;
+    System.out.println(output);
   }
 }
